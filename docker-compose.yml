@@ -1,0 +1,6 @@
+circuits_purecss_starter:
+    build: .
+    environment:
+        - PORT=8000
+        - VIRTUALHOST=circuits_purecss_starter.vz1.bne.shortcircuit.net.au
+    restart: always
